@@ -1,9 +1,14 @@
 # Plano
 
-- Fase 0: base funcional, editor, núcleo, validação estrutural, build e exportação/reimportação implementados.
-- Fase 1 inicial: cabeça paramétrica integrada implementada como estudo experimental. Aprovação visual/anatômica pendente; não declarar a fase anatômica completa.
-- Próximo passo: revisar cabeça frontal/lateral, adicionar referências matemáticas de proporção, narinas, pálpebras e topologia orbital/labial; validar interseções e deformações.
-- Fase 2: refinamento facial, olhos e orelhas.
-- Fases 3–6: corpo, rig, animação, realismo e produto integrado, todos pendentes.
+V0.1 permanece como gerador e regressão histórica. A V0.2 evolui a aplicação com crânio/mandíbula/pescoço, olhos independentes, aberturas geométricas e loops orbitais/labiais. [Relatório V0.2](docs/V02_REPORT.md).
 
-Não avançar automaticamente ao corpo completo antes de revisar a qualidade da cabeça. Não importar modelos humanos. Preservar a independência do núcleo em relação ao renderizador e usar testes geométricos para cada mudança.
+Prioridade seguinte, antes do corpo:
+
+1. Melhorar continuidade de curvatura nas bordas dos patches orbitais/labiais, hoje visualmente angulares; avaliar frontal, lateral e três quartos com referências antropométricas.
+2. Distribuição adaptativa de polígonos e processamento em worker, preservando o contrato de parâmetros.
+3. Pálpebras com piscada completa, controle de colisões entre peças, mandíbula articulada e testes de expressões. Os probes atuais são limitados e não constituem rig.
+4. Asas/septo nasal e cavidade oral mais anatômicos; dentes e língua procedurais.
+5. Orelhas procedurais detalhadas: hélice, anti-hélice, concha, trago e lóbulo. A V0.2 conserva apenas volumes auriculares simplificados.
+6. Atlas UV sem sobreposição e melhorias de pele PBR, com limites físicos explicitados.
+
+Corpo completo, rig corporal, caminhada, cabelo, realismo e produto integrado continuam pendentes. Não avançar ao corpo antes de revisar a cabeça. Não importar malhas humanas ou substituir geometria por imagens. Não inferir anatomia correta a partir da contagem de polígonos.

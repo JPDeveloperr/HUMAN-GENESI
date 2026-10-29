@@ -1,0 +1,177 @@
+{
+  "legacy": {
+    "valid": true,
+    "errors": [],
+    "normalErrors": 0,
+    "orientation": 0,
+    "vertices": 6818,
+    "triangles": 13632,
+    "boundary": 0,
+    "nonManifold": 0,
+    "components": 1,
+    "euler": 2,
+    "volume": 0.00400271965049683,
+    "bytes": 395396,
+    "limitations": [
+      "Interseções entre triângulos não são verificadas.",
+      "Topologia ainda não validada para animação."
+    ]
+  },
+  "skin": {
+    "valid": true,
+    "errors": [],
+    "normalErrors": 0,
+    "orientation": 0,
+    "vertices": 26272,
+    "triangles": 52540,
+    "boundary": 0,
+    "nonManifold": 0,
+    "components": 1,
+    "euler": 2,
+    "volume": 0.003832016565038092,
+    "bytes": 1523728,
+    "limitations": [
+      "Interseções entre triângulos não são verificadas.",
+      "Topologia ainda não validada para animação."
+    ]
+  },
+  "parts": [
+    {
+      "name": "eye-left-sclera",
+      "material": "sclera",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 0.000007186702586261282,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    },
+    {
+      "name": "eye-left-iris",
+      "material": "iris",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 9.582272808177639e-8,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    },
+    {
+      "name": "eye-left-pupil",
+      "material": "pupil",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 6.419366990069788e-9,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    },
+    {
+      "name": "eye-right-sclera",
+      "material": "sclera",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 0.000007186702586261269,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    },
+    {
+      "name": "eye-right-iris",
+      "material": "iris",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 9.582272808177713e-8,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    },
+    {
+      "name": "eye-right-pupil",
+      "material": "pupil",
+      "valid": true,
+      "errors": [],
+      "normalErrors": 0,
+      "orientation": 0,
+      "vertices": 1106,
+      "triangles": 2208,
+      "boundary": 0,
+      "nonManifold": 0,
+      "components": 1,
+      "euler": 2,
+      "volume": 6.419366990070117e-9,
+      "bytes": 64100,
+      "limitations": [
+        "Interseções entre triângulos não são verificadas.",
+        "Topologia ainda não validada para animação."
+      ]
+    }
+  ],
+  "totalVertices": 32908,
+  "totalTriangles": 65788,
+  "totalBufferBytes": 1908328,
+  "generationMs": [
+    306.70091099999996,
+    256.96202500000004,
+    221.56131300000004,
+    218.32967599999995,
+    255.48366399999986
+  ],
+  "generationMedianMs": 255.48366399999986,
+  "selfIntersections": {
+    "pairs": [],
+    "testedPairs": 71742,
+    "truncated": false
+  },
+  "scope": "Transverse nonadjacent triangle crossings within the skin only. Coplanar overlaps, tangencies and collisions between separate parts are not certified."
+}
