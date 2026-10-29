@@ -95,3 +95,11 @@ As vistas V0.2 usam os parâmetros padrão. O exemplo GLB V0.1 preservado usa pr
 - Documentação: README, ARCHITECTURE, GEOMETRY, ANATOMY, RENDERING, TESTING, ROADMAP, este relatório e artefatos em `docs/v02/`.
 
 O primeiro commit da branch inclui separadamente os arquivos da base V0.1, pois não estavam presentes no histórico Git remoto. Nenhum merge ou deploy foi realizado.
+
+## Entrega no GitHub
+
+A branch `feature/human-genesis-v0.2` foi enviada ao remoto. A criação do PR com `gh pr create --base main --head feature/human-genesis-v0.2` foi tentada, mas falhou com `Post https://api.github.com/graphql: Forbidden`; a conexão HTTP ao domínio da API também retornou 403 no CONNECT do proxy. O sucesso do Git não comprova autorização para a API. Não foi solicitado nem copiado token adicional.
+
+A adição exclusiva de `api.github.com` foi salva no rascunho de rede, preservando os presets existentes. Não foi aplicada nem publicada nesta tarefa. Para aplicá-la pela configuração do ambiente, é necessário revisar/salvar e publicar o ambiente pela interface. Depois disso, ainda será necessário testar a autorização efetiva da API.
+
+Alternativa sem alterar o ambiente: [abrir o PR manualmente no GitHub](https://github.com/JPDeveloperr/HUMAN-GENESI/pull/new/feature/human-genesis-v0.2), usando o [texto preparado](v02/PULL_REQUEST.md). Não há confirmação de PR criado. Nenhum merge ou publicação foi executado.
