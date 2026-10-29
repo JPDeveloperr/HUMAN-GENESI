@@ -30,6 +30,6 @@ export function validateMesh(m:ProceduralMesh) {
   if(volume<=0) errors.push('Volume não positivo');
   const components=new Set(parent.map((_,i)=>root(i))).size;
   if(components!==1) errors.push('Superfície desconectada');
-  return {valid:errors.length===0,errors,vertices:n,triangles:m.indices.length/3,boundary,nonManifold,components,euler:n-edges.size+m.indices.length/3,volume,bytes:m.positions.byteLength+m.normals.byteLength+m.uvs.byteLength+m.indices.byteLength+m.regions.byteLength,
+  return {valid:errors.length===0,errors,normalErrors,orientation,vertices:n,triangles:m.indices.length/3,boundary,nonManifold,components,euler:n-edges.size+m.indices.length/3,volume,bytes:m.positions.byteLength+m.normals.byteLength+m.uvs.byteLength+m.indices.byteLength+m.regions.byteLength,
     limitations:['Interseções entre triângulos não são verificadas.','Topologia ainda não validada para animação.']};
 }
